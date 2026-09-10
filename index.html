@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrant Pam Ceremonies</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .font-serif-luxe { font-family: 'Playfair Display', serif; }
+        .font-script { font-family: 'Alex Brush', cursive; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#121212] text-stone-200 antialiased selection:bg-[#F5B041] selection:text-black">
+
+    <!-- Distinct Header (Fixed Mobile Spacing) -->
+    <nav class="sticky top-0 z-50 bg-[#1A1A1A] border-b border-stone-800 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-2.5 shrink-0">
+                <img src="logo.jpg" alt="Celebrant Pam Logo" class="h-8 sm:h-10 w-auto rounded-full border border-[#F5B041]/30">
+                <span class="text-[11px] sm:text-sm font-serif-luxe font-bold tracking-widest text-[#F5B041] uppercase">
+                    Celebrant Pam
+                </span>
+            </a>
+            
+            <!-- Nav Links -->
+            <div class="flex items-center gap-3 sm:gap-6 text-[10px] sm:text-xs font-medium tracking-wider uppercase text-stone-300 shrink-0">
+                <a href="#services" class="hover:text-[#F5B041] transition-colors">Services</a>
+                <a href="#about" class="hover:text-[#F5B041] transition-colors">About</a>
+                <a href="#contact" class="hover:text-[#F5B041] transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Dark) -->
+    <section class="max-w-5xl mx-auto px-6 py-20 text-center relative">
+        <div class="text-[#F5B041] font-script text-5xl sm:text-6xl mb-2">Celebrant Pam</div>
+        <h1 class="text-4xl sm:text-6xl font-serif-luxe text-white leading-tight tracking-wide">
+            Meaningful Ceremonies, <br class="hidden sm:inline"><span class="text-[#F5B041]">Personal to You</span>
+        </h1>
+        <p class="mt-6 text-stone-300 text-base sm:text-lg max-w-xl mx-auto font-light leading-relaxed">
+            Warm, bespoke wedding, vow renewal, and family celebrations tailored entirely to your story.
+        </p>
+        <div class="mt-10">
+            <a href="#contact" class="inline-block bg-[#F5B041] text-black font-semibold text-sm uppercase tracking-widest px-8 py-3.5 rounded-full shadow-lg hover:bg-[#e09d30] transition-all hover:scale-105">
+                Check Availability
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section (Warm Cream) -->
+    <section class="relative py-12 md:py-24 bg-[#FAF7F2] text-[#222222] border-t border-[#F5B041]/20">
+        <!-- Invisible Anchor targeting top offset only on mobile screens -->
+        <span id="services" class="absolute -top-16 md:top-0 block h-0 w-0 pointer-events-none"></span>
+
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center max-w-xl mx-auto">
+                <span class="text-[#B8860B] font-script text-4xl">What I Offer</span>
+                <h2 class="text-3xl font-serif-luxe text-[#222222] tracking-wide mt-1">Bespoke Ceremonies</h2>
+                <p class="mt-3 text-stone-600 text-sm font-light">
+                    Never scripted or generic, every ceremony is custom-written with heart to bring your story, values, and traditions to life.
+                </p>
+            </div>
+
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1: Wedding Ceremonies -->
+                <div class="bg-white rounded-xl border border-stone-200 shadow-md hover:shadow-xl transition-all group flex flex-col overflow-hidden">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="wedding.jpg" alt="Wedding Ceremonies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h3 class="text-xl font-serif-luxe text-[#222222]">Wedding Ceremonies</h3>
+                        <p class="mt-3 text-stone-600 text-sm leading-relaxed font-light">
+                            Crafted with genuine warmth and love for storytelling. Tailored script creation including vows, rituals, and family traditions for intimate elopements or grand gatherings.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 2: Vow Renewals -->
+                <div class="bg-white rounded-xl border border-stone-200 shadow-md hover:shadow-xl transition-all group flex flex-col overflow-hidden">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="vow.jpg" alt="Vow Renewals" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h3 class="text-xl font-serif-luxe text-[#222222]">Vow Renewals</h3>
+                        <p class="mt-3 text-stone-600 text-sm leading-relaxed font-light">
+                            Reaffirm your love and celebrate milestone anniversaries with a heartfelt gathering designed to reflect your journey together.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 3: Naming Ceremonies -->
+                <div class="bg-white rounded-xl border border-stone-200 shadow-md hover:shadow-xl transition-all group flex flex-col overflow-hidden">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="baby Naming.jfif" alt="Naming Ceremonies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h3 class="text-xl font-serif-luxe text-[#222222]">Naming Ceremonies</h3>
+                        <p class="mt-3 text-stone-600 text-sm leading-relaxed font-light">
+                            A warm, joyful alternative to traditional christenings to welcome a new child into your family and community.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Warm Cream) -->
+    <section class="relative py-12 md:py-24 bg-[#FAF7F2] text-[#222222] border-t border-stone-200">
+        <!-- Invisible Anchor targeting top offset only on mobile screens -->
+        <span id="about" class="absolute -top-16 md:top-0 block h-0 w-0 pointer-events-none"></span>
+
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                
+                <!-- Image with Accent Frame -->
+                <div class="relative max-w-md mx-auto md:max-w-none w-full">
+                    <div class="absolute -inset-2 rounded-2xl bg-gradient-to-tr from-[#F5B041]/30 to-transparent blur-sm"></div>
+                    <div class="relative overflow-hidden rounded-2xl border border-stone-200 shadow-xl">
+                        <img src="headshot.jpg" alt="Pamela - Celebrant" class="w-full h-auto object-cover">
+                    </div>
+                </div>
+
+                <!-- About Text -->
+                <div>
+                    <span class="text-[#B8860B] font-script text-5xl">Meet Pam</span>
+                    <h2 class="text-3xl font-serif-luxe text-[#222222] mt-1">Warmth, Storytelling & Sincerity</h2>
+                    
+                    <!-- Qualification Badge -->
+                    <div class="my-6 p-6 bg-white border-l-4 border-[#F5B041] rounded-r-lg shadow-sm font-serif-luxe italic text-stone-700 leading-relaxed">
+                        "Hi everyone, my name is Pamela. I am a qualified wedding celebrant from the Irish Institute of Wedding Celebrants."
+                    </div>
+
+                    <p class="text-stone-700 leading-relaxed font-light text-sm sm:text-base">
+                        At Celebrant Pam Ceremonies, every wedding is a celebration of love, family, and connection. Pam is a warm, approachable celebrant who takes pride in creating ceremonies that are personal, meaningful, and true to each couple’s story.
+                    </p>
+                    <p class="mt-4 text-stone-700 leading-relaxed font-light text-sm sm:text-base">
+                        With a friendly and calming presence, she works closely with you to design a ceremony that reflects your personalities, values, and family traditions, whether simple and relaxed or beautifully detailed.
+                    </p>
+                    <p class="mt-4 text-stone-700 leading-relaxed font-light text-sm sm:text-base">
+                        Pam takes care of the details so you can be fully present, knowing your ceremony will unfold seamlessly, naturally, and with heartfelt sincerity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Highlights / Pillars Section (Warm Cream) -->
+    <section class="py-16 bg-[#F3EDE2] border-t border-stone-200 text-[#222222]">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <h3 class="text-lg font-serif-luxe text-[#222222]">A Calming Presence</h3>
+                    <p class="mt-2 text-xs sm:text-sm text-stone-600 font-light">Reassuring and approachable guidance so you can relax and feel completely at ease on your big day.</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-serif-luxe text-[#222222]">Family & Connection</h3>
+                    <p class="mt-2 text-xs sm:text-sm text-stone-600 font-light">A deep focus on inclusive, joyful moments where everyone present feels connected to your story.</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-serif-luxe text-[#222222]">Authentic Storytelling</h3>
+                    <p class="mt-2 text-xs sm:text-sm text-stone-600 font-light">No generic scripts, just beautifully written ceremonies tailored entirely to your unique journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Dark) -->
+    <section class="relative py-24 bg-[#121212] border-t border-[#F5B041]/20">
+        <!-- Invisible Anchor targeting top offset only on mobile screens -->
+        <span id="contact" class="absolute -top-16 md:top-0 block h-0 w-0 pointer-events-none"></span>
+
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center">
+                <span class="text-[#F5B041] font-script text-4xl">Get in Touch</span>
+                <h2 class="text-3xl font-serif-luxe text-white mt-1">Check Availability</h2>
+                <p class="mt-2 text-stone-400 text-sm font-light">Send an inquiry to check dates or arrange an initial consultation call.</p>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="mt-12 bg-[#1C1C1C] p-8 sm:p-10 rounded-2xl border border-[#F5B041]/30 shadow-2xl space-y-6">
+                <input type="hidden" name="access_key" value="ea0c65ab-a19c-4bb5-a899-23e511f9abe4">
+                <input type="hidden" name="redirect" value="https://celebrantpamceremonies.netlify.app/thank-you.html">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider font-semibold text-[#F5B041]">Full Name</label>
+                        <input type="text" name="name" required class="mt-2 w-full p-3 bg-[#121212] border border-stone-700 rounded-lg text-white focus:outline-none focus:border-[#F5B041]">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider font-semibold text-[#F5B041]">Email Address</label>
+                        <input type="email" name="email" required class="mt-2 w-full p-3 bg-[#121212] border border-stone-700 rounded-lg text-white focus:outline-none focus:border-[#F5B041]">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider font-semibold text-[#F5B041]">Event Date</label>
+                        <input type="date" name="date" class="mt-2 w-full p-3 bg-[#121212] border border-stone-700 rounded-lg text-white focus:outline-none focus:border-[#F5B041]">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider font-semibold text-[#F5B041]">Ceremony Type</label>
+                        <select name="ceremony_type" class="mt-2 w-full p-3 bg-[#121212] border border-stone-700 rounded-lg text-white focus:outline-none focus:border-[#F5B041]">
+                            <option value="Wedding">Wedding</option>
+                            <option value="Vow Renewal">Vow Renewal</option>
+                            <option value="Naming Ceremony">Naming Ceremony</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-semibold text-[#F5B041]">Message</label>
+                    <textarea name="message" rows="4" required class="mt-2 w-full p-3 bg-[#121212] border border-stone-700 rounded-lg text-white focus:outline-none focus:border-[#F5B041]" placeholder="Tell me a bit about your event location, vision, or any questions..."></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-[#F5B041] text-black font-semibold uppercase tracking-widest py-3.5 rounded-lg shadow-lg hover:bg-[#e09d30] transition-all">
+                    Send Inquiry
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (Dark) -->
+    <footer class="py-14 bg-[#0c0c0c] border-t border-stone-800 text-stone-400 text-sm">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center md:text-left">
+                
+                <!-- Brand Info -->
+                <div class="flex flex-col items-center md:items-start gap-3">
+                    <div class="flex items-center gap-3">
+                        <img src="logo.jpg" alt="Celebrant Pam Logo" class="h-10 w-auto rounded-full border border-[#F5B041]/30">
+                        <span class="font-serif-luxe font-bold tracking-widest text-[#F5B041] uppercase text-sm">
+                            Celebrant Pam Ceremonies
+                        </span>
+                    </div>
+                    <p class="text-xs text-stone-500 font-light max-w-xs">
+                        Crafting personalized, genuine, and heartfelt ceremonies across Ireland.
+                    </p>
+                </div>
+
+                <!-- Location & Coverage Areas -->
+                <div class="text-center">
+                    <h4 class="text-xs uppercase tracking-wider font-semibold text-[#F5B041] mb-2">Areas Covered</h4>
+                    <p class="text-xs text-stone-300 font-light leading-relaxed">
+                        Leitrim &bull; Longford &bull; Roscommon
+                    </p>
+                    <p class="text-xs text-stone-400 font-light mt-1">
+                        Available for ceremonies <span class="text-[#F5B041]">Nationwide across Ireland</span>
+                    </p>
+                </div>
+
+                <!-- Direct Contact & Socials -->
+                <div class="flex flex-col items-center md:items-end gap-3 text-xs">
+                    <h4 class="text-xs uppercase tracking-wider font-semibold text-[#F5B041]">Connect Directly</h4>
+                    <a href="mailto:celebrantpamceremonies@gmail.com" class="hover:text-[#F5B041] transition-colors flex items-center gap-2 text-stone-300">
+                        <svg class="w-4 h-4 text-[#F5B041]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        celebrantpamceremonies@gmail.com
+                    </a>
+                    <a href="https://www.instagram.com/celebrantpamceremonies" target="_blank" rel="noopener noreferrer" class="hover:text-[#F5B041] transition-colors flex items-center gap-2 text-stone-300">
+                        <svg class="w-4 h-4 text-[#F5B041]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        @celebrantpamceremonies
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="mt-12 pt-6 border-t border-stone-800 text-center text-xs text-stone-500">
+                <p>&copy; 2026 Celebrant Pam Ceremonies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
